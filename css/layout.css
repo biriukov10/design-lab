@@ -11,8 +11,6 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-left: -15px;
-  margin-right: -15px;
 }
 .ba-row + .ba-row {
   margin-top: 0;  
@@ -55,4 +53,10 @@
 }
 [class^='ba-col-'] {
   padding: 0 4px;
+  margin-bottom: 0.5em;
+}
+[class^='ba-col-']:nth-child(4),
+[class^='ba-col-']:nth-child(5),
+[class^='ba-col-']:nth-child(6) {
+  margin-bottom: 0;
 }
