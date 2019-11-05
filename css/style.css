@@ -148,7 +148,7 @@ h1,h2,h3,h4,h5,h6 {
   padding: 120px 0 114px;
 }
 .ba-box--padding {
-  padding: 122px 180px 84px;
+  padding: 122px 15vw 84px;
 }
 .ba-design {
   margin-bottom: 100px;
@@ -195,11 +195,7 @@ h1,h2,h3,h4,h5,h6 {
   position: relative;
   height: 100%;
 }
-.ba-slide {
-  /* width: 100%;
-  display: flex;
-  justify-content: center; */
-}
+
 .ba-card__link {
   max-width: 100%;
 }
@@ -230,7 +226,7 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
 }
 .ba-box--down {
-  padding-bottom: 48px;
+  padding: 70px 15vw 48px;
 }
 .ba-contacts__text {
   line-height: 25px;
